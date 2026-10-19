@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A responsive travel guide to the coast, landscapes, and landmarks of Phu Yen, Vietnam.">
+  <title>Discover Phu Yen</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="Discover Phu Yen home">
+        <span class="brand-mark" aria-hidden="true">PY</span>
+        <span>Discover Phu Yen</span>
+      </a>
+
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-navigation">
+        <span class="sr-only">Open navigation</span>
+        <span aria-hidden="true">☰</span>
+      </button>
+
+      <nav class="site-nav" id="site-navigation" aria-label="Primary navigation" data-open="false">
+        <a href="#places">Places</a>
+        <a href="#journey">One-day journey</a>
+        <a href="#extras">Extra features</a>
+        <a href="#about">About</a>
+      </nav>
+
+      <button class="theme-button" type="button" aria-label="Switch to dark theme" title="Change color theme">
+        <span aria-hidden="true">◐</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <img src="assets/ganh-da-dia.jpg" alt="Hexagonal basalt columns beside the sea at Ganh Da Dia in Phu Yen">
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Vietnam's quiet south-central coast</p>
+        <h1 id="hero-title">Sea, stone and open sky</h1>
+        <p>Meet Phu Yen through three landscapes that make the province unforgettable.</p>
+        <a class="button button-primary" href="#places">Explore the places</a>
+      </div>
+      <p class="hero-credit">Ganh Da Dia, Phu Yen</p>
+    </section>
+
+    <section class="intro section-shell reveal" aria-labelledby="intro-title">
+      <div>
+        <p class="eyebrow">Welcome</p>
+        <h2 id="intro-title">A coast shaped by contrast</h2>
+      </div>
+      <p>Phu Yen pairs calm beaches with volcanic rock and mountain roads. This compact guide presents three signature stops and a simple route for experiencing them in one day.</p>
+    </section>
+
+    <section class="places section-shell" id="places" aria-labelledby="places-title">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">Featured places</p>
+          <h2 id="places-title">Three views of Phu Yen</h2>
+        </div>
+        <p>Select any photograph to open a larger, keyboard-accessible view.</p>
+      </div>
+
+      <div class="place-grid">
+        <article class="place-card reveal">
+          <button class="photo-button" type="button" data-image="assets/ganh-da-dia.jpg" data-alt="Hexagonal basalt columns beside the sea at Ganh Da Dia" data-caption="Ganh Da Dia — a dramatic meeting point of volcanic rock and sea.">
+            <img src="assets/ganh-da-dia.jpg" alt="Hexagonal basalt columns beside the sea at Ganh Da Dia">
+            <span>View larger</span>
+          </button>
+          <div class="card-copy">
+            <p class="card-number">01</p>
+            <h3>Ganh Da Dia</h3>
+            <p>Dark basalt columns form a natural mosaic along the shoreline.</p>
+          </div>
+        </article>
+
+        <article class="place-card reveal">
+          <button class="photo-button" type="button" data-image="assets/bai-xep.jpg" data-alt="Bai Xep beach viewed from a green cactus-covered headland" data-caption="Bai Xep — a small bay framed by green headlands and clear water.">
+            <img src="assets/bai-xep.jpg" alt="Bai Xep beach viewed from a green cactus-covered headland">
+            <span>View larger</span>
+          </button>
+          <div class="card-copy">
+            <p class="card-number">02</p>
+            <h3>Bai Xep</h3>
+            <p>A sheltered beach where golden sand meets cactus-covered slopes.</p>
+          </div>
+        </article>
+
+        <article class="place-card reveal">
+          <button class="photo-button" type="button" data-image="assets/deo-ca.jpg" data-alt="Winding road through the green mountains of Ca Mountain Pass" data-caption="Ca Mountain Pass — a high coastal route with broad views of mountain and sea.">
+            <img src="assets/deo-ca.jpg" alt="Winding road through the green mountains of Ca Mountain Pass">
+            <span>View larger</span>
+          </button>
+          <div class="card-copy">
+            <p class="card-number">03</p>
+            <h3>Ca Mountain Pass</h3>
+            <p>A winding mountain route with wide views toward the coast.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="journey" id="journey" aria-labelledby="journey-title">
+      <div class="section-shell journey-inner">
+        <div class="journey-intro reveal">
+          <p class="eyebrow">A simple itinerary</p>
+          <h2 id="journey-title">One memorable day</h2>
+          <p>Start with soft morning light, follow the coast north, and finish above the sea.</p>
+        </div>
+
+        <ol class="timeline">
+          <li class="reveal">
+            <span>07:00</span>
+            <div>
+              <h3>Morning at Bai Xep</h3>
+              <p>Walk the quiet sand before the middle of the day.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span>11:00</span>
+            <div>
+              <h3>Rock formations at Ganh Da Dia</h3>
+              <p>Study the geometric coastline and rest beside the water.</p>
+            </div>
+          </li>
+          <li class="reveal">
+            <span>16:30</span>
+            <div>
+              <h3>Late light on Ca Mountain Pass</h3>
+              <p>End the route with a broad view across the green mountains.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="extras section-shell" id="extras" aria-labelledby="extras-title">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">Project evidence</p>
+          <h2 id="extras-title">Four additional features</h2>
+        </div>
+        <p>Each feature improves accessibility or makes the site easier to use.</p>
+      </div>
+
+      <div class="extra-grid">
+        <article class="extra-card reveal">
+          <span aria-hidden="true">01</span>
+          <h3>Skip link</h3>
+          <p>Keyboard users can jump directly to the main content.</p>
+        </article>
+        <article class="extra-card reveal">
+          <span aria-hidden="true">02</span>
+          <h3>Theme switcher</h3>
+          <p>The header control switches between light and dark themes.</p>
+        </article>
+        <article class="extra-card reveal">
+          <span aria-hidden="true">03</span>
+          <h3>Accessible photo dialog</h3>
+          <p>Images open in a labelled dialog that works with the keyboard.</p>
+        </article>
+        <article class="extra-card reveal">
+          <span aria-hidden="true">04</span>
+          <h3>Back to top</h3>
+          <p>A floating control appears after visitors scroll down the page.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="section-shell about-grid">
+        <div class="reveal">
+          <p class="eyebrow">About this project</p>
+          <h2 id="about-title">Designed mobile first</h2>
+        </div>
+        <div class="about-copy reveal">
+          <p>The page begins as a single-column mobile layout. At wider viewports, the navigation becomes horizontal, destination cards form a three-column grid, and supporting content gains more breathing room.</p>
+          <a class="text-link" href="https://vinpearl.com/en/phu-yen-travel-guide" target="_blank" rel="noopener">Read more travel information <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-shell footer-inner">
+      <p><strong>Discover Phu Yen</strong><br>Responsive web design project</p>
+      <p>Created by Dinh Phuoc Sang · <span id="year">2026</span></p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Back to top" hidden>↑</button>
+
+  <dialog class="photo-dialog" aria-labelledby="dialog-caption">
+    <form method="dialog">
+      <button class="dialog-close" aria-label="Close image dialog">×</button>
+    </form>
+    <img src="assets/ganh-da-dia.jpg" alt="">
+    <p id="dialog-caption"></p>
+  </dialog>
+</body>
+</html>
